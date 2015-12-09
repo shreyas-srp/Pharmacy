@@ -1,0 +1,22 @@
+adult
+adderall 	Acella Pharmaceuticals, LLC
+ativan		Kedrion Biopharma, Inc
+alprazolam   Libertas Pharma
+zoloft   CSL Behring
+ibuprofen    Dey Pharma
+naproxen   Valeant Pharmaceuticals International
+cymbalta	Hope Pharmaceuticals
+gabapentin	Wellstat Therapeutics Corporation
+lyrica	X-GEN Pharmaceuticals, Inc.
+
+child
+codeine		Vanda Pharmaceuticals Inc.
+lisinopril	Genentech, Inc.
+doxycycline	Glenmark Pharmaceuticals Inc.
+losartan	Ther-Rx Corporation
+oxycodone	Zydus Pharmaceuticals (USA) Inc.
+metformin	Roche Pharmaceuticals
+Citalopram	Shionogi Pharma, Inc
+Loratadine	Otsuka Pharmaceutical Co., Ltd
+Wellbutrin	Daiichi Sankyo
+Injectafer	Salix Pharmaceuticals, Ltd
