@@ -8,7 +8,7 @@
 <html>
 <head>
 <title> Index </title>
-<link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+<link rel="stylesheet" href="cyborgbootstrap.min.css">
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -74,7 +74,7 @@
         <div class="overlay">
             <div class="content">
 				</br></br></br></br></br></br></br></br></br></br></br>
-                <h1>Welcome on <strong><span class="color">E-Pharmicals</span></strong></h1>
+                <h1>Welcome <strong><span class="color"><%= session.getAttribute("username") %></span></strong></h1>
                 <p class="lead">We are a digital agency with <strong>years of experience</strong> and with <strong>extraordinary people</strong></p>
                 <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
 				</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
@@ -178,6 +178,13 @@
 		//out.println("select * from " + request.getParameter("intake") +" join "+ request.getParameter("age-group") + " on " + request.getParameter("intake") + ".name = " +request.getParameter("age-group") + ".name where name like '%" + request.getParameter("name") + "%'"  );
 		rs = st.executeQuery("select * from " + request.getParameter("intake") +" join "+ request.getParameter("age-group") + " on " + request.getParameter("intake") + ".name = " +request.getParameter("age-group") + ".name where " + request.getParameter("intake") + ".name like '%" + request.getParameter("name") + "%'" );		
 		int i  = 1;
+		if(rs == null)
+			{%>
+				<tr>
+					<td> No Results to Display </td>
+				</tr>
+			
+			<%	}
 		while(rs.next())
 		{
 			%>
